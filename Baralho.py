@@ -1,6 +1,5 @@
 from main2 import gerar_baralho
 import random
-from statistics import quantiles
 
 quantas_copias = int(input("Quantas cópias deseja gerar?"))
 coringas = str(input("Quer que tenham coringas no jogo?\nDigite 's' para sim e 'n' para não: ")).lower().strip()
