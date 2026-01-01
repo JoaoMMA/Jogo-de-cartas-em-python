@@ -35,7 +35,7 @@ def distribuir(n_j, n_c):
   
 mao_dos_jogadores = distribuir(n_j=n_jogadores, n_c=n_cartas)
 print (f"O baralho tem {quantas_cartas} cartas")
-if len(baralho) < 0:
+if len(baralho) < (n_jogadores * n_cartas):
    print ("Não ha cartas o suficiente no baralho para distribuir")
 else:
    for i, mao in enumerate(mao_dos_jogadores, start=1):
