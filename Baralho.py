@@ -41,4 +41,4 @@ if len(baralho) < 0:
 else:
    for i, mao in enumerate(mao_dos_jogadores, start=1):
     print (f"Jogador {i}: {mao}") 
-    print (quantas_cartas)
+    print (len(baralho))
